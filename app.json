@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/start/start",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#F44848",
+    "navigationBarTitleText": "抢红包",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {  
+    "color": "#fff",  
+    "selectedColor": "#efb336",  
+    "borderStyle": "black",
+    "backgroundColor":"#F44848",
+    "list": [{  
+      "selectedIconPath": "images/search_list_selected.png",  
+      "iconPath": "images/search_list_default.png",  
+      "pagePath": "pages/home/home",  
+      "text": "抢红包"  
+    }, {  
+      "selectedIconPath": "images/lucky_money_selected.png",  
+      "iconPath": "images/lucky_money_default.png",  
+      "pagePath": "pages/start/start",  
+      "text": "发红包"  
+    },{  
+      "selectedIconPath": "images/me_selected.png",  
+      "iconPath": "images/me_default.png",  
+      "pagePath": "pages/me/me",  
+      "text": "我的"  
+    }
+    ]  
+  } 
+}
